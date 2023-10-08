@@ -1,0 +1,97 @@
+h1  {
+    color:red
+}
+
+.isi {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: large;
+    color: #00ff00;
+}
+
+.judul {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: large;
+    color: rgb(231, 13, 50);
+}
+.text-uppercase {
+text-transform: uppercase;
+}
+
+.text-lowercase {
+    text-transform: lowercase;
+}
+
+.text-capatalize {
+    text-transform: capitalize;
+}
+
+.text-none {
+    text-transform: none;
+}
+
+.text-shadow {
+    text-shadow: 2px 2px 4px #4d2828;
+}
+
+.body {
+    background-color:green;
+}
+
+.body {
+    background-image:url(gambar1.jpg);
+}
+
+.body {
+    background-attachment:scroll;
+}
+
+.body {
+    background-repeat: repeat;
+    background-image: url(image/gambar1.jpg);
+
+}
+
+.body {
+    background-repeat: no-repeat;
+    background-image: url(image/gambar1.jpg);
+    background-position: bottom center;
+
+}
+
+ul {
+    list-style-type:disc ;
+}
+
+ul {
+    list-style-type: url(gambar1.jpg);
+}
+
+ul {
+    list-style-type: inside;
+}
+ul{
+    border-style: dashed;border-width: thin;
+}
+
+ul{
+    background: green;
+    margin: 12px 12px 12px 12px;
+    padding: 3px 3px 3px 3px;
+    border-style: dashed;
+    border-width: thin;
+}
+
+li{
+    color: black;
+    background: gray;
+    margin: 12px 12px 12px 12px;
+    padding: 12px 12px 12px 12px;
+    list-style: none;
+}
+
+li.withborder{
+    border-style: dashed;
+    border-width: medium;
+    border-color: black;
+
+}
